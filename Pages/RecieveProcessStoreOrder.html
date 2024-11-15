@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Stories with Acceptance Criteria</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+      }
+      header {
+        background-color: #b22222;
+        color: white;
+        padding: 1em;
+        text-align: center;
+      }
+      section {
+        margin: 20px;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        color: #b22222;
+        text-decoration: underline;
+      }
+      h3 {
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      /* Low priority */
+      .priority-level-low {
+        background-color: #4caf50; /* Green */
+      }
+
+      .priority-level-low:hover {
+        background-color: #45a049;
+      }
+
+      /* Medium priority */
+      .priority-level-medium {
+        background-color: #ff9800; /* Orange */
+      }
+
+      .priority-level-medium:hover {
+        background-color: #fb8c00;
+      }
+
+      /* High priority */
+      .priority-level-high {
+        background-color: #f44336; /* Red */
+      }
+
+      .priority-level-high:hover {
+        background-color: #e53935;
+      }
+      .user-story {
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border-bottom: 1px solid #ddd;
+      }
+      .acceptance-criteria {
+        background-color: #f9f9f9;
+        border-left: 4px solid #b22222;
+        padding: 10px;
+        margin-top: 20px;
+      }
+      p {
+        color: #b22222;
+        font-size: 20px;
+      }
+      ul {
+        list-style-type: square;
+        margin-left: 20px;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      .user-img {
+        width: 100px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+        border-radius: 10px;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #b22222;
+        color: white;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10%;
+        margin-bottom: 10px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>User Story #9 - Recieve / Process Store Order</h1>
+      <a href="../index.html">User Story Glossary</a>
+    </header>
+
+    <section>
+      <div class="user-story">
+        <h3 class="priority-level-high">Priority Level - High</h3>
+        <h2>User Story #9 - Recieve / Process Store Order</h2>
+        <img
+          src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o="
+          alt="Dashboard screenshot"
+          class="user-img"
+        />
+        <table>
+          <thead>
+            <tr>
+              <th>Role</th>
+              <th>Want</th>
+              <th>So That</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Warehouse Foreman</td>
+              <td>
+                To be able to receive orders and emergency orders from all store
+                locations and process them in a timely manner.
+              </td>
+              <td>
+                Orders can be easily tracked for all pers to see, and to process
+                the ordered digitally for full transparency and to minimize
+                mistakes.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="acceptance-criteria">
+          <h4>Acceptance Criteria:</h4>
+          <ul>
+            <li>
+              Must be able to receive the weekly orders and emergency orders
+              from the store within the same system.
+            </li>
+            <li>Able to track an order’s status and currently loaded items.</li>
+            <li>
+              Able to divvy limited stock across multiple orders to ensure equal
+              shares.
+            </li>
+            <li>
+              Able to send the store order to the warehouse workers for
+              fulfillment.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
