@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #b22222;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #b22222;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #b22222;
+    padding-bottom: 5px;
+}
+
+h3 {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #b22222;
+}
+
+/* Priority Levels */
+.priority-level-low {
+    background-color: #4caf50;
+}
+
+.priority-level-low:hover {
+    background-color: #45a049;
+}
+
+.priority-level-medium {
+    background-color: #ff9800;
+}
+
+.priority-level-medium:hover {
+    background-color: #fb8c00;
+}
+
+.priority-level-high {
+    background-color: #f44336;
+}
+
+.priority-level-high:hover {
+    background-color: #e53935;
+}
+
+/* User Stories */
+.user-story {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.acceptance-criteria {
+    background-color: #f9f9f9;
+    border-left: 4px solid #b22222;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+/* Lists */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Images */
+.user-img {
+    width: 100px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #b22222;
+    color: white;
+    font-weight: 600;
+}
+
+/* Simple responsive adjustments */
+@media (max-width: 768px) {
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+}
