@@ -14,31 +14,36 @@
       header {
         background-color: #b22222;
         color: white;
-        padding: 1em;
+        padding: 1.5em 0;
         text-align: center;
       }
       section {
         margin: 20px;
-        padding: 20px;
+      }
+      .card {
         background-color: #ffffff;
         border-radius: 8px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin-bottom: 20px;
       }
       h2 {
         color: #b22222;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
+        font-size: 1.5em;
       }
       .glossary-item {
         margin-bottom: 15px;
       }
       a {
         display: block;
-        padding: 10px;
+        padding: 12px;
         background-color: #b22222;
         color: white;
         text-decoration: none;
         border-radius: 5px;
         transition: background-color 0.3s;
+        font-size: 1.1em;
       }
       a:hover {
         background-color: #8b0000;
@@ -51,83 +56,143 @@
     </header>
 
     <section>
-      <h2>Administrator / Manager - User Stories</h2>
-
-      <div class="glossary-item">
-        <a href="./Pages/AdminDashboardUS.html">User Story - Admin Dashboard</a>
+      <!-- Administrator / Manager - User Stories -->
+      <div class="card">
+        <h2>Administrator / Manager - User Stories</h2>
+        <div class="glossary-item">
+          <a href="./Pages/AdminDashboardUS.html">User Story - Admin Dashboard</a>
+        </div>
+        <div class="glossary-item">
+          <a href="./Pages/InventoryManagementAdminUS.html"
+            >User Story - Inventory Management (Admin / Manager)</a
+          >
+        </div>
+        <div class="glossary-item">
+          <a href="./Pages/CrudOperationsUS.html">User Story - CRUD Operations</a>
+        </div>
+        <div class="glossary-item">
+          <a href="./Pages/GeneratingReports.html"
+            >User Story - Generating Reports</a
+          >
+        </div>
       </div>
 
-      <div class="glossary-item">
-        <a href="./Pages/InventoryManagementAdminUS.html"
-          >User Story - Inventory Management (Admin / Manager)</a
-        >
+      <!-- Store Manager / Worker - User Stories -->
+      <div class="card">
+        <h2>Store Manager / Worker - User Stories</h2>
+        <div class="glossary-item">
+          <a href="./Pages/MainDashboardUS.html">User Story - Main Dashboard</a>
+        </div>
+        <div class="glossary-item">
+          <a href="./Pages/InventoryManagementUS.html"
+            >User Story - Inventory Management (Store Manager / Warehouse
+            Worker)</a
+          >
+        </div>
       </div>
 
-      <div class="glossary-item">
-        <a href="./Pages/CrudOperationsUS.html">User Story - CRUD Operations</a>
+      <!-- Warehouse Foreman - User Stories -->
+      <div class="card">
+        <h2>Warehouse Foreman - User Stories</h2>
+        <div class="glossary-item">
+          <a href="./Pages/RecieveProcessStoreOrder.html"
+            >User Story - Recieve / Process Store Order</a
+          >
+        </div>
+        <div class="glossary-item">
+          <a href="./Pages/ManageWarehouseInventory.html"
+            >User Story - Manage Warehouse Inventory</a
+          >
+        </div>
+        <div class="glossary-item">
+          <a href="./Pages/WarehouseBackorder.html"
+            >User Story - Warehouse Backorder</a
+          >
+        </div>
+        <div class="glossary-item">
+          <a href="./Pages/WarehouseReturns.html"
+            >User Story - Warehouse Returns</a
+          >
+        </div>
+        <div class="glossary-item">
+          <a href="./Pages/WarehouseGenerateReport.html"
+            >User Story - Warehouse Generate Report</a
+          >
+        </div>
       </div>
 
-      <div class="glossary-item">
-        <a href="./Pages/GeneratingReports.html"
-          >User Story - Generating Reports</a
-        >
+      <!-- Warehouse Worker - User Stories -->
+      <div class="card">
+        <h2>Warehouse Worker - User Stories</h2>
+        <div class="glossary-item">
+          <a href="./Pages/WarehouseFulfillOrder.html"
+            >User Story - Warehouse Fulfill Order</a
+          >
+        </div>
+        <div class="glossary-item">
+          <a href="./Pages/WarehouseWGenerateReport.html"
+            >User Story - Warehouse Worker Generate Report</a
+          >
+        </div>
+        <div class="glossary-item">
+          <a href="./Pages/WarehousePerformInventory.html"
+            >User Story - Warehouse Worker Perform Inventory</a
+          >
+        </div>
       </div>
 
-      <h2>Store Manager / Worker - User Stories</h2>
-
-      <div class="glossary-item">
-        <a href="./Pages/MainDashboardUS.html">User Story - Main Dashboard</a>
-      </div>
-      <div class="glossary-item">
-        <a href="./Pages/InventoryManagementUS.html"
-          >User Story - Inventory Management (Store Manager / Warehouse
-          Worker)</a
-        >
-      </div>
-
-      <h2>Warehouse Foreman - User Stories</h2>
-
-      <div class="glossary-item">
-        <a href="./Pages/RecieveProcessStoreOrder.html"
-          >User Story - Recieve / Process Store Order</a
-        >
-      </div>
-      <div class="glossary-item">
-        <a href="./Pages/ManageWarehouseInventory.html"
-          >User Story - Manage Warehouse Inventory</a
-        >
-      </div>
-      <div class="glossary-item">
-        <a href="./Pages/WarehouseBackorder.html"
-          >User Story - Warehouse Backorder</a
-        >
-      </div>
-      <div class="glossary-item">
-        <a href="./Pages/WarehouseReturns.html"
-          >User Story - Warehouse Returns</a
-        >
-      </div>
-      <div class="glossary-item">
-        <a href="./Pages/WarehouseGenerateReport.html"
-          >User Story - Warehouse Generate Report</a
-        >
+      <!-- Store Manager - User Stories -->
+      <div class="card">
+        <h2>Store Manager - User Stories</h2>
+        <div class="glossary-item">
+          <a href="./Pages/CreateStoreOrder.html"
+            >User Story - Create Store Order</a
+          >
+        </div>
+        <div class="glossary-item">
+          <a href="./Pages/HandlingInventory.html"
+            >User Story - Handling Inventory</a
+          >
+        </div>
+        <div class="glossary-item">
+          <a href="./Pages/ViewOrders.html"
+            >User Story - View Orders</a
+          >
+        </div>
+        <div class="glossary-item">
+          <a href="./Pages/ManagerGenerateReports.html"
+            >User Story - Manager Generate Reports</a
+          >
+        </div>
+        <div class="glossary-item">
+          <a href="./Pages/ViewSales.html"
+            >User Story - View Sales</a
+          >
+        </div>
+        <div class="glossary-item">
+          <a href="./Pages/LossesReturns.html"
+            >User Story - Process Losses/Returns</a
+          >
+        </div>
       </div>
 
-      <h2>Warehouse Worker - User Stories</h2>
-      <div class="glossary-item">
-        <a href="./Pages/WarehouseFulfillOrder.html"
-          >User Story - Warehouse Fulfill Order</a
-        >
+      <!-- Delivery Driver - User Stories -->
+      <div class="card">
+        <h2>Delivery Driver - User Stories</h2>
+        <div class="glossary-item">
+          <a href="./Pages/Delivery.html"
+            >User Story - Generate Shipping Receipt</a
+          >
+        </div>
       </div>
-      <div class="glossary-item">
-        <a href="./Pages/WarehouseWGenerateReport.html"
-          >User Story - Warehouse Worker Generate Report</a
-        >
-      </div>
-      <div class="glossary-item">
-        <a href="./Pages/WarehousePerformInventory.html"
-          >User Story - Warehouse Worker Perform Inventory</a
-        >
+
+      <!-- Acadia - User Stories -->
+      <div class="card">
+        <h2>Acadia - User Stories</h2>
+        <div class="glossary-item">
+          <a href="./Pages/Acadia.html"
+          >User Story - View Orders / Shipping Receipts</a>
+        </div>
       </div>
     </section>
   </body>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Stories with Acceptance Criteria</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+      }
+      header {
+        background-color: #b22222;
+        color: white;
+        padding: 1em;
+        text-align: center;
+      }
+      section {
+        margin: 20px;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        color: #b22222;
+        text-decoration: underline;
+      }
+      h3 {
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      /* Low priority */
+      .priority-level-low {
+        background-color: #4caf50; /* Green */
+      }
+
+      .priority-level-low:hover {
+        background-color: #45a049;
+      }
+
+      /* Medium priority */
+      .priority-level-medium {
+        background-color: #ff9800; /* Orange */
+      }
+
+      .priority-level-medium:hover {
+        background-color: #fb8c00;
+      }
+
+      /* High priority */
+      .priority-level-high {
+        background-color: #f44336; /* Red */
+      }
+
+      .priority-level-high:hover {
+        background-color: #e53935;
+      }
+      .user-story {
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border-bottom: 1px solid #ddd;
+      }
+      .acceptance-criteria {
+        background-color: #f9f9f9;
+        border-left: 4px solid #b22222;
+        padding: 10px;
+        margin-top: 20px;
+      }
+      p {
+        color: #b22222;
+        font-size: 20px;
+      }
+      ul {
+        list-style-type: square;
+        margin-left: 20px;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      .user-img {
+        width: 100px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+        border-radius: 10px;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #b22222;
+        color: white;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10%;
+        margin-bottom: 10px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>User Story #17 - Handling Inventory</h1>
+      <a href="../index.html">User Story Glossary</a>
+    </header>
+
+    <section>
+      <div class="user-story">
+        <h3 class="priority-level-high">Priority Level - High</h3>
+        <h2>User Story #17 - Handling Inventory</h2>
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/019/194/935/non_2x/global-admin-icon-color-outline-vector.jpg"
+          alt="Dashboard screenshot"
+          class="user-img"
+        />
+        <table>
+          <thead>
+            <tr>
+              <th>Role</th>
+              <th>Want</th>
+              <th>So That</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>As a Store Manager</td>
+              <td>
+                To be able to view, edit, move, and perform inventory within the system.
+              </td>
+              <td>
+                I can easily handle all store inventory and ensure all information is accurate.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="acceptance-criteria">
+          <h4>Acceptance Criteria:</h4>
+          <ul>
+            <li>Able to view inventory for location and other locations.</li>
+            <li>Able to edit inventory descriptions, min reorder size, and notes.</li>
+            <li>Perform inventory at location.</li>
+            <li>Move inventory to new locations, or assign as lost or damaged.</li>
+            <li>Receive new inventory.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
